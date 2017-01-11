@@ -27,7 +27,7 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     cfg = load_config()
 
-    delay = cfg['sending']['delay']
+    delay = int(cfg['sending']['delay'])
     text_path = cfg['text']['text']
     subject = cfg['text']['subject']
     emails_file = cfg['headers']['to']
