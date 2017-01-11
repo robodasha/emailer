@@ -1,0 +1,7 @@
+Dear (%FIRST-NAME%),
+
+This is an automated email. We hope you like it.
+
+Best regards,
+
+The senders
