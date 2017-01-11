@@ -27,12 +27,12 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     cfg = load_config()
 
-    delay = cfg['delay']
-    text_path = cfg['text']
-    subject = cfg['subject']
-    emails_file = cfg['emails']
-    from_address = cfg['from']
-    copy_address = cfg['copy']
+    delay = cfg['sending']['delay']
+    text_path = cfg['text']['text']
+    subject = cfg['text']['subject']
+    emails_file = cfg['headers']['to']
+    from_address = cfg['headers']['from']
+    copy_address = cfg['headers']['copy']
     emails_list = []
 
     logger.info('From: {}, copy: {}, delay: {}'

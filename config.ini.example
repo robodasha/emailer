@@ -1,6 +1,11 @@
+[headers]
 from = from_address
 copy = copy_address
-emails = /path/to/email/addresses
+to = /path/to/email/addresses
+
+[text]
 subject = email_subject
 text = /path/to/email/text
+
+[sending]
 delay = seconds_delay_between_emails
