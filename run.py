@@ -42,7 +42,7 @@ if __name__ == "__main__":
     with open(text_path, 'r') as fp:
         text = fp.read()
 
-    logger.info('Text: {}'.format(text))
+    # logger.info('Text: {}'.format(text))
 
     with open(emails_file, 'r') as fp:
         reader = csv.reader(fp)
